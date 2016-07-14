@@ -5,10 +5,11 @@ import { browserHistory } from 'react-router';
 // import root reducer
 import rootReducer from './reducers/index';
 
+// import hard-coded comments and posts
 import comments from './data/comments';
 import posts from './data/posts';
 
-// create object for data
+// create object for default data
 const defaultState = {
      posts,
      comments

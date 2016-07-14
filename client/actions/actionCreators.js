@@ -1,4 +1,4 @@
-// ACTION CREATORS
+// ACTION CREATORS "actions dispatched with info of what happened"
 
 // increment
 export function increment(index) {
