@@ -2,7 +2,7 @@
 // 1. Action(info about what happened)
 // 2. copy of current state
 
-function comments(state = [], aciton) {
+function comments(state = [], action) {
      console.log(state, action);
      return state;
 }
